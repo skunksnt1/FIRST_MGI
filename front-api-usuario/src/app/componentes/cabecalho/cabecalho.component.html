@@ -1,0 +1,23 @@
+<br-header
+  [alt]="image.alt"
+  [image]="image.src"
+  [signature]="signature"
+  [title]="title"
+  container-fluid="true"
+  has-menu
+  has-title-link="true"
+  id="header"
+  title-link-url="/"
+>
+  <div slot="headerMenu">
+    
+  </div>
+  <br-header-action
+    slot="headerAction"
+    title-links="Bibliotecas de componentes"
+    [listLinks]="links"
+    title-functions="Links relacionados"
+    [listFunctions]="functions"
+  >
+  </br-header-action>
+</br-header>
